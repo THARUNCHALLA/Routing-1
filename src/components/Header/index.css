@@ -1,0 +1,31 @@
+.HeaderContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.waveContainer {
+  display: flex;
+  align-items: center;
+}
+.heading {
+  font-family: 'roboto';
+  font-size: 14px;
+  color: #12022f;
+}
+.heading1 {
+  font-family: 'roboto';
+  font-size: 14px;
+  color: #12022f;
+}
+.waveLogo {
+  height: 30px;
+  width: 30px;
+  margin-right: 06px;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style-type: none;
+  margin-right: 10px;
+}

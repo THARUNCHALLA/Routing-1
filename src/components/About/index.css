@@ -1,0 +1,30 @@
+.aboutImage {
+  height: 60%;
+  width: 50%;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+@media (min-width: 600px) {
+  .aboutImage {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 60px;
+  }
+}
+.AboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aboutHeading {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #6d396b;
+  font-weight: 600;
+}
+.aboutDescription {
+  font-family: 'roboto';
+  font-size: 16px;
+  color: #555555;
+}
